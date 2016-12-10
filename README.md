@@ -76,3 +76,44 @@ public class ex04_Concatenate_Data {
 }
 
 ===========================================
+
+===========================================
+
+05.Trapezoid area
+
+import java.util.Scanner;
+
+public class ex05_Trapezoid_Area {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double b1 = Double.parseDouble(console.nextLine());
+        double b2 = Double.parseDouble(console.nextLine());
+        double h = Double.parseDouble(console.nextLine());
+        double area = (b1 + b2) * h / 2;
+        System.out.println("Trapezoid area = " + area);
+    }
+}
+
+===========================================
+
+===========================================
+
+06.Area and perimeter of circle
+
+import java.util.Scanner;
+
+public class ex06_Area_And_Perimeter_Of_Circle {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double r = Double.parseDouble(console.nextLine());
+        double area = Math.PI * r * r;
+        double perimeter = 2 * Math.PI * r;
+        System.out.printf("Area = %f%nPerimeter = %f", area, perimeter);
+    }
+}
+
+===========================================
+
+===========================================
