@@ -39,3 +39,22 @@ public class ex02_Inches_To_Centimeters {
 
 ===========================================
 
+===========================================
+
+03.Greeting
+
+import java.util.Scanner;
+
+public class ex03_Greeting {
+    public static void main(String[] args){
+        Scanner console = new Scanner(System.in);
+
+        System.out.print("Enter your name : ");
+        String name = console.nextLine();
+        System.out.printf("Hello, %s!", name);
+    }
+}
+
+===========================================
+
+===========================================
