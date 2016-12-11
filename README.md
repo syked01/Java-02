@@ -117,3 +117,76 @@ public class ex06_Area_And_Perimeter_Of_Circle {
 ===========================================
 
 ===========================================
+
+08. Triangle area
+
+import java.util.Scanner;
+
+public class ex08_Triangle_Area {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double a = Double.parseDouble(console.nextLine());
+        double h = Double.parseDouble(console.nextLine());
+        double area = a * h / 2;
+        System.out.printf("Triangle area = %.2f", area);
+    }
+}
+
+===========================================
+
+===========================================
+
+09. Celsius to Fahrenheit
+
+import java.util.Scanner;
+
+public class ex09_Celsius_To_Fahrenheit {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double cel = Double.parseDouble(console.nextLine());
+        double far = cel * 1.8 + 32;
+        System.out.printf("%.2f", far);
+    }
+}
+
+===========================================
+
+===========================================
+
+10. Radians to degrees
+
+import java.util.Scanner;
+
+public class ex10_Radians_To_Degrees {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double rad = Double.parseDouble(console.nextLine());
+        double degr = rad * 180 / Math.PI;
+        System.out.printf("%.0f", degr);
+    }
+}
+
+===========================================
+
+===========================================
+
+11. USD to BGN
+
+import java.util.Scanner;
+
+public class ex11_USD_To_BGN {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        double usd = Double.parseDouble(console.nextLine());
+        double bgn = usd * 1.79549;
+        System.out.printf("%.2f", bgn);
+    }
+}
+
+===========================================
+
+===========================================
